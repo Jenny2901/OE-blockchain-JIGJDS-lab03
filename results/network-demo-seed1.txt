@@ -1,0 +1,17 @@
+phase 1 (connected)  heights=[14, 15] converged=False
+PARTITION  A=['node0', 'node1', 'node2', 'node3', 'node4', 'node5']  B=['node6', 'node7', 'node8', 'node9', 'node10', 'node11']
+phase 2 (split)      distinct tips=2 heights=[19, 27]
+HEAL
+phase 3 (healed, mining stopped) distinct tips=1 heights=[27] converged=True
+  node0   height=27  reorg depths=[]
+  node1   height=27  reorg depths=[1]
+  node2   height=27  reorg depths=[1]
+  node3   height=27  reorg depths=[1]
+  node4   height=27  reorg depths=[1]
+  node5   height=27  reorg depths=[1, 1]
+  node6   height=27  reorg depths=[1, 5]
+  node7   height=27  reorg depths=[1, 5]
+  node8   height=27  reorg depths=[1, 5]
+  node9   height=27  reorg depths=[1, 5]
+  node10  height=27  reorg depths=[1, 5]
+  node11  height=27  reorg depths=[1, 5]
